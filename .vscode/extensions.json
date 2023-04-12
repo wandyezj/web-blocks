@@ -3,7 +3,6 @@
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
         "davidanson.vscode-markdownlint",
-        "streetsidesoftware.code-spell-checker",
-        "bierner.github-markdown-preview"
+        "ms-playwright.playwright"
     ]
 }

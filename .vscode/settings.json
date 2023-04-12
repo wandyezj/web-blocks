@@ -39,7 +39,14 @@
         "extends": "./config/markdownlint.json"
     },
 
-    "files.exclude": {
-        "node_modules": true
-    }
+    "cSpell.words": [
+        "filechooser",
+        "INKSCAPE",
+        "linebreak",
+        "markdownlint",
+        "msedge",
+        "openchecklist",
+        "prettierrc",
+        "viewports"
+    ]
 }

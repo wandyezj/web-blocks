@@ -1,1 +1,3 @@
-# web-blocks
+# website
+
+Simple Website Template
