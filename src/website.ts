@@ -1,5 +1,5 @@
 export function website(): string {
-    return "website";
+    return "web blocks";
 }
 
 export function clock() {

@@ -1,7 +1,7 @@
 {
-    "name": "website",
+    "name": "web-blocks",
     "version": "0.0.0",
-    "description": "Simple Website Template",
+    "description": "Simple Website Block Editor",
     "private": true,
     "engines": {
         "node": ">=16.17",
