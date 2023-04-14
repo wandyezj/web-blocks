@@ -10,7 +10,7 @@ import { getRootDirectory } from "./getRootDirectory";
 const useLocalDist = true;
 
 const mainPageUrl = "https://openchecklist.github.io/";
-export const mainPageTitle = "Website";
+export const mainPageTitle = "Web Blocks";
 
 export async function navigateToMainPage(browser: Browser): Promise<Page> {
     // Create a separate browser context for each test
