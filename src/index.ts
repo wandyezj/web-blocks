@@ -38,6 +38,26 @@ const toolbox = {
         },
     ],
 };
+const workspace = Blockly.inject("blocklyDiv", { toolbox });
 
-//const workspace =
-Blockly.inject("blocklyDiv", { toolbox });
+import { javascriptGenerator } from "blockly/javascript";
+
+function showCode(code: string) {
+    if (document === null) {
+        console.error("document is null");
+        return;
+    }
+    const area = document.getElementById("blocklyCode") as HTMLTextAreaElement;
+    area.innerText = code;
+}
+
+let code: string = "";
+function updateCode() {
+    const codeNew = javascriptGenerator.workspaceToCode(workspace);
+    if (code !== codeNew) {
+        code = codeNew;
+        showCode(code);
+    }
+}
+
+workspace.addChangeListener(updateCode);
